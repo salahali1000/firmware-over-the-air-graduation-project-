@@ -1,0 +1,12 @@
+bootloader.c:41:11:BL_FeatchHostCommand	16	static
+bootloader.c:85:6:BL_PrintMessage	112	static
+bootloader.c:101:13:Bootloader_Erase_Flash	32	static
+bootloader.c:136:13:Bootloader_Memory_Write	32	static
+bootloader.c:192:7:Bootloader_Jump_To_Application	24	static,ignoring_inline_asm
+bootloader.c:211:16:Bootloader_CRC_Verify	40	static
+bootloader.c:238:13:Bootloader_Send_ACK	24	static
+bootloader.c:249:13:Bootloader_Send_NACK	16	static
+bootloader.c:254:6:Bootloader_Send_Data_To_Host	16	static
+bootloader.c:264:16:Host_Address_Verification	24	static
+bootloader.c:290:9:Perform_Flash_Erase	40	static
+bootloader.c:349:16:FlashMemory_Payload_Write	48	static
